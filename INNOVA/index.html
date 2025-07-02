@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>INNOVA</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Favicons
+    ================================================== -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+  <!-- 轮播图 -->
+  <link rel="stylesheet" href="libs/glide/glide.core.min.css">
+  <link rel="stylesheet" href="libs/glide/glide.theme.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+  <!-- Stylesheet
+    ================================================== -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/zzsc.css">
+
+  <!--动态数据和服务内容-->
+  <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.2/css/all.css" rel="stylesheet">
+  <!----->
+  <!---form表单验证-->
+  <link rel="stylesheet" href="./css/bootstrapValidator.css">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <!-- 这是公司导航栏
+    ==========================================-->
+  <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span
+            class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand page-scroll" href="#page-top">Innova</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="./about.html" class="page-scroll about">关于我们</a></li>
+          <li><a href="#company" class="page-scroll">服务内容</a></li>
+          <li> 
+            <div class="dropdown">
+              <span class="btn dropdown-toggle services" data-toggle="dropdown" data-hover="dropdown" id="dropdownmenu1"
+                aria-haspopup="true" aria-expanded="true">
+                <a href="#Service" class="page-scroll services-a">技术平台</a>
+                <span class="caret"></span>
+              </span>
+              <ul class="dropdown-menu dropdown-box  dropdown-menu-right" role="menu" aria-labelledby="dropdownmenu1">
+                <div role="presentation" class="dropdown-box1">
+                  <div class="dropdown-box1-header header1">
+                    <img src="fonts/fonts-nav/经济指标.svg" class="fonts-nav">
+                    <p class="header-p">固态经济</p>
+                  </div>
+                  <div class="dropdown-box1-container header1">
+                    <div>
+                      <img src="fonts/fonts-nav/云计算.svg" class="fonts-nav2">
+                      <a href="#" class="container-a">
+                        <p class="header-p-p">云计算</p>
+                      </a>
+                    </div>
+                    <div>
+                      <img src="fonts/fonts-nav/云服务器,云上传.svg" class="fonts-nav2">
+                      <a href="#" class="container-a">
+                        <p class="header-p-p">云服务</p>
+                      </a>
+                    </div>
+                    <div>
+                      <img src="fonts/fonts-nav/网络.svg" class="fonts-nav2">
+                      <a href="#" class="container-a">
+                        <p class="header-p-p">网络工程</p>
+                      </a>
+                    </div>
+                    <div>
+                      <img src="fonts/fonts-nav/ico_药房管理_滞销药品查询.svg" class="fonts-nav2">
+                      <a href="#" class="container-a">
+                        <p class="header-p-p">软件工程</p>
+                      </a>
+                    </div>
+                    <div>
+                      <img src="fonts/fonts-nav/科技.svg" class="fonts-nav2">
+                      <a href="#" class="container-a">
+                        <p class="header-p-p">嵌入式</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div role="presentation" class="dropdown-box1 dropdown-box2">
+                  <div class="dropdown-box1-header header2">
+                    <img src="fonts/fonts-nav/ico_药房管理_滞销药品查询.svg" class="fonts-nav2">
+                    <p class="header-p">药物设计服务</p>
+                  </div>
+                  <div class="dropdown-box1-container header2">
+                    <div>
+                      <img src="fonts/fonts-nav/云计算.svg" class="fonts-nav2">
+                      <a href="#" class="container-a">
+                        <p class="header-p-p">云计算</p>
+                      </a>
+                    </div>
+                    <div>
+                      <img src="fonts/fonts-nav/云服务器,云上传.svg" class="fonts-nav2">
+                      <a href="#" class="container-a">
+                        <p class="header-p-p">云服务</p>
+                      </a>
+                    </div>
+                    <div>
+                      <img src="fonts/fonts-nav/网络.svg" class="fonts-nav2">
+                      <a href="#" class="container-a">
+                        <p class="header-p-p">网络工程</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div role="presentation" class="dropdown-box1 dropdown-box3">
+                  <div class="dropdown-box1-header header3">
+                    <img src="fonts/fonts-nav/科技.svg" class="fonts-nav2">
+                    <p class="header-p">科技创新</p>
+                  </div>
+                  <div class="dropdown-box1-container header3">
+                    <div>
+                      <img src="fonts/fonts-nav/01 分子.svg" class="fonts-nav2">
+                      <a href="#" class="container-a">
+                        <p class="header-p-p">小分子科技服务</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#portfolio" class="page-scroll">产品展示</a></li>
+          <li><a href="#news" class="page-scroll">新闻速递</a></li>
+          <li><a href="#contact" class="page-scroll">联系我们</a></li>
+          <li>
+            <!-- 原生html实现中英文切换 -->
+            <!-- <select name="" id="" class="selectall">
+              <option value="中文">中文</option>
+              <option value="English">English</option>
+            </select> -->
+
+            <!-- bootstrap实现中英文切换 -->
+            <div class="dropdown">
+              <span class="btn dropdown-toggle services" data-toggle="dropdown" data-hover="dropdown" id="dropdownmenu1"
+                aria-haspopup="true" aria-expanded="true">
+                <a class="page-scroll services-a">中英文切换</a>
+                <span class="caret"></span>
+              </span>
+              <ul class="dropdown-menu dropdown-box3  dropdown-menu-right" role="menu" aria-labelledby="dropdownmenu1">
+                <option value="中文">中文</option>
+                <option value="English">English</option>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+  </nav>
+  <!-- Header 轮播图-->
+  <header>
+    <div id="home" class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <div class="glide__slides">
+          <div class="glide__slide">
+            <div class="slide-caption">
+              <h1 class="slide-caption-h1">用创新点缀人生，让科技融入理想。</h1>
+              <h3 class="slide-caption-h3">科技创新大平台，智慧生活新引擎，依靠科技进步推进经济跨越式发展，用创新点缀人生，让科技融入理想。</h3>
+              <button class="explore-btn"><a href="#about" class="page-scroll">探索更多</a></button>
+            </div>
+            <img src="img/dongtaishujv/adult-business-computer-contemporary-380769.jpg" alt="">
+          </div>
+
+          <div class="glide__slide">
+            <div class="slide-caption left">
+              <h1 class="slide-caption-h1">科技改变世界</h1>
+              <h3 class="slide-caption-h3">科技创新大平台，智慧生活新引擎，依靠科技进步推进经济跨越式发展，用创新点缀人生，让科技融入理想。</h3>
+              <button class="explore-btn"><a href="#about" class="page-scroll">探索更多</a></button>
+            </div>
+            <img src="img/glide-images/bokeh-photography-of-person-holding-turned-on-iphone-1440727.jpg"></img>
+          </div>
+
+          <div class="glide__slide">
+            <div class="slide-caption">
+              <h1 class="slide-caption-h1">用创新点缀人生，让科技融入理想。</h1>
+              <h3 class="slide-caption-h3">科技创新大平台，智慧生活新引擎，依靠科技进步推进经济跨越式发展，用创新点缀人生，让科技融入理想。</h3>
+              <button class="explore-btn"><a href="#about" class="page-scroll">探索更多</a></button>
+            </div>
+            <img
+              src="img/dongtaishujv/src=http___img.ewebweb.com_uploads_20191006_20_1570364486-LQrimpICuA.jpg&refer=http___img.ewebweb.jfif"
+              alt="">
+          </div>
+
+          <div class="glide__slide">
+            <div class="slide-caption left">
+              <h1 class="slide-caption-h1">科技改变世界</h1>
+              <h3 class="slide-caption-h3">科技创新大平台，智慧生活新引擎，依靠科技进步推进经济跨越式发展，用创新点缀人生，让科技融入理想。</h3>
+              <button class="explore-btn"><a href="#about" class="page-scroll">探索更多</a></button>
+            </div>
+            <img src="img/dongtaishujv/bokeh-photography-of-person-holding-turned-on-iphone-1440727.jpg"></img>
+          </div>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+            < </button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                >
+              </button>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0"></button>
+          <button class="glide__bullet" data-glide-dir="=1"></button>
+          <button class="glide__bullet" data-glide-dir="=2"></button>
+          <button class="glide__bullet" data-glide-dir="=3"></button>
+        </div>
+      </div>
+  </header>
+  <!-- 右侧滚轮 -->
+    <div class="xtalpi-about-position-indicator">
+
+      <div class="xtalpi-about-position-indicator-item xtalpi-about-position-indicator-item-active"
+        onclick="indicatorClick(0)">
+        <span>公司简介</span>
+      </div>
+      <div class="xtalpi-about-position-indicator-item" onclick="indicatorClick(1)">
+        <span>服务内容</span>
+      </div>
+
+      <div class="xtalpi-about-position-indicator-item" onclick="indicatorClick(2)">
+        <span>技术平台</span>
+      </div>
+
+      <div class="xtalpi-about-position-indicator-item" onclick="indicatorClick(3)">
+        <span>产品展示</span>
+      </div>
+      <div class="xtalpi-about-position-indicator-item" onclick="indicatorClick(4)">
+        <span>新闻速递</span>
+      </div>
+      <div class="xtalpi-about-position-indicator-item" onclick="indicatorClick(5)">
+        <span>联系我们</span>
+      </div>
+
+    </div>
+    <!-- About Section -->
+    <div id="about">
+      <div class="case">
+        <div class="title cf">
+          <h2 class="fl">公司简介</h2>
+          <ul class="title-list fr cf ">
+            <li class="selDef">工厂</li>
+            <li>服务</li>
+            <li>模型开发</li>
+            <li>影响力</li>
+            <p><b></b></p>
+          </ul>
+        </div>
+        <div class="product-wrap">
+          <!--案例1-->
+          <div class="product">
+            <ul class="cf product1">
+              <div class="product1-header">
+                <div class="product1-p-container">
+                  <div>
+                    <span class="product1-span">我们的工厂 <i class="fa fa-desktop" aria-hidden="true"></i></span>
+                    <p class="product1-p">经过20年的发展，现在我们工厂的占地面积超过700,000平方米。自两千年以来一直是值得信赖的消费品供应商。
+                      经过20年的发展，现在我们工厂的占地面积超过700,000平方米。自两千年以来一直是值得信赖的消费品供应商。
+                      经过20年的发展，现在我们工厂的占地面积超过700,000平方米。自两千年以来一直是值得信赖的消费品供应商</p>
+                  </div>
+                  <div class="product1-p-img">
+                    <img src="fonts/fonts/科技.svg" class="icon" style="width: 150px; height: 150px;" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="product1-container">
+                <div class="product1-container-box1">
+                  <p class="product1-container-box1-p">晶型预测</p>
+                  <span class="product1-container-box1-span">晶泰科技拥有包括晶型预测，单晶结构解析，盐、共晶虚拟筛选等多项计算类小分子药物固态研发技术，
+                    以及先进的固态研发实验平台，旨在通过量子物理、计算化学、人工智能等前沿算法和云端算力，结合试验筛选和表征，
+                    打造新一代小分子药物固态研发平台，为产业提供新的固态研发思路和解决方案，帮助客户提升固态研发质量。
+                    <div class="product1-container-box1-svg">
+                      <svg t="1610955819373" class="icon icon1" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="7462" width="50" height="50">
+                        <path
+                          d="M912.8 1020H111.2c-8.8 0-16-7.2-16-16v-136.8c0-8.8 7.2-16 16-16h801.6c8.8 0 16 7.2 16 16v136.8c0 8.8-7.2 16-16 16z m-785.6-32h769.6v-104.8H127.2v104.8z"
+                          p-id="7463" fill="#1f386e"></path>
+                        <path
+                          d="M864 883.2H775.2c-5.6 0-10.4-2.4-13.6-7.2-3.2-4.8-3.2-10.4-0.8-15.2 58.4-129.6 21.6-282.4-88.8-371.2-4-3.2-6.4-8.8-5.6-14.4 0.8-5.6 4-10.4 8.8-12.8 21.6-9.6 36.8-30.4 39.2-54.4 0.8-5.6 4-10.4 9.6-12.8 5.6-2.4 11.2-1.6 16 2.4 143.2 112 199.2 303.2 139.2 475.2-2.4 6.4-8 10.4-15.2 10.4z m-64.8-32h53.6c47.2-148 1.6-309.6-113.6-412.8-6.4 16-16.8 29.6-30.4 40.8 103.2 94.4 138.4 241.6 90.4 372zM518.4 579.2c-3.2 0-6.4-0.8-8.8-2.4l-167.2-112c-7.2-4.8-9.6-15.2-4-22.4l236-352c2.4-3.2 6.4-5.6 10.4-6.4 4-0.8 8.8 0 12 2.4l167.2 112c7.2 4.8 9.6 15.2 4 22.4l-74.4 111.2c-4 6.4-12.8 8.8-19.2 5.6-8-3.2-17.6-5.6-26.4-5.6-37.6 0-68 30.4-68 68 0 18.4 7.2 35.2 20 48 5.6 5.6 6.4 13.6 2.4 20l-68.8 103.2c-2.4 3.2-6.4 5.6-10.4 6.4-3.2 1.6-4 1.6-4.8 1.6zM372.8 447.2l140.8 94.4 53.6-80c-13.6-17.6-20.8-38.4-20.8-60.8 0-55.2 44.8-100 100-100 8.8 0 17.6 0.8 26.4 3.2l58.4-88-140.8-94.4-217.6 325.6z"
+                          p-id="7464" fill="#1f386e"></path>
+                        <path
+                          d="M646.4 500.8c-26.4 0-52-10.4-70.4-29.6-19.2-19.2-29.6-44-29.6-71.2 0-55.2 44.8-100 100-100 13.6 0 26.4 2.4 38.4 8 37.6 16 61.6 52 61.6 92.8 0 3.2 0 7.2-0.8 11.2-4 34.4-26.4 64.8-57.6 80-12.8 5.6-27.2 8.8-41.6 8.8z m0-168.8c-37.6 0-68 30.4-68 68 0 18.4 7.2 35.2 20 48 12.8 12.8 30.4 20 48 20 9.6 0 19.2-2.4 28.8-6.4 21.6-9.6 36.8-30.4 39.2-54.4 0-3.2 0.8-5.6 0.8-8 0-27.2-16.8-52-41.6-63.2-8.8-1.6-17.6-4-27.2-4z"
+                          p-id="7465" fill="#1f386e"></path>
+                        <path
+                          d="M646.4 428.8c-9.6 0-16-4.8-20-8-4-4-8-10.4-8-20 0-15.2 12.8-28 28-28 4 0 7.2 0.8 11.2 2.4 8 3.2 17.6 12 17.6 26.4v3.2c-0.8 9.6-7.2 18.4-16 22.4-4.8 0.8-8.8 1.6-12.8 1.6z m0-40.8c-6.4 0-12 5.6-12 12 0 3.2 1.6 6.4 4 8.8 4 4 8.8 4.8 13.6 2.4 4-1.6 6.4-5.6 7.2-9.6V400c0-8-6.4-11.2-7.2-11.2-2.4 0-4-0.8-5.6-0.8zM484.8 687.2c-14.4 0-28.8-4-41.6-12.8l-167.2-112c-16.8-11.2-28-28-32-47.2-4-19.2 0-39.2 11.2-56 11.2-16.8 28-28 47.2-32 19.2-4 39.2 0 56 11.2l167.2 112c16.8 11.2 28 28 32 47.2 4 19.2 0 39.2-11.2 56-11.2 16.8-28 28-47.2 32-4 0.8-8.8 1.6-14.4 1.6zM317.6 457.6c-13.6 0-27.2 6.4-35.2 19.2-12.8 19.2-8 46.4 12 59.2l167.2 112c19.2 12.8 46.4 8 59.2-12 12.8-19.2 8-46.4-12-59.2l-167.2-112c-7.2-4.8-15.2-7.2-24-7.2zM733.6 213.6c-3.2 0-6.4-0.8-8.8-2.4L597.6 126.4c-7.2-4.8-9.6-15.2-4-22.4L656 11.2c2.4-3.2 6.4-5.6 10.4-6.4 4-0.8 8.8 0 12 2.4l126.4 84.8c7.2 4.8 9.6 15.2 4 22.4l-62.4 92.8c-2.4 3.2-6.4 5.6-10.4 6.4h-2.4zM628.8 108.8L728.8 176l44.8-66.4-100-67.2-44.8 66.4z"
+                          p-id="7466" fill="#1f386e"></path>
+                      </svg>
+                    </div>
+                </div>
+                </span>
+                <div class="product1-container-box2">
+                  <p class="product1-container-box1-p">固态筛选与评估</p>
+                  <span class="product1-container-box1-span">晶泰科技拥有包括晶型预测，单晶结构解析，盐、共晶虚拟筛选等多项计算类小分子药物固态研发技术，
+                    以及先进的固态研发实验平台，旨在通过量子物理、计算化学、人工智能等前沿算法和云端算力，结合试验筛选和表征，
+                    打造新一代小分子药物固态研发平台，为产业提供新的固态研发思路和解决方案，帮助客户提升固态研发质量.帮助客户提升固态研发质量.
+                    <div class="product1-container-box2-svg">
+                      <svg t="1610956193720" class="icon icon1" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="8468" width="50" height="50">
+                        <path
+                          d="M614.4 1004H98.4c-35.2 0-66.4-18.4-82.4-49.6-16.8-31.2-15.2-67.2 4-96l218.4-336V116.8c0-8.8 7.2-16 16-16h204.8c8.8 0 16 7.2 16 16v405.6l218.4 336c15.2 24 19.2 52.8 11.2 80-8.8 27.2-28.8 48.8-55.2 59.2-12 4.8-24 6.4-35.2 6.4zM269.6 132.8v394.4c0 3.2-0.8 6.4-2.4 8.8L46.4 876c-12.8 19.2-13.6 43.2-2.4 63.2s31.2 32.8 54.4 32.8h516c8 0 15.2-1.6 22.4-4 16.8-6.4 31.2-21.6 36.8-39.2 5.6-17.6 3.2-36.8-7.2-52.8L445.6 536c-1.6-2.4-2.4-5.6-2.4-8.8V132.8H269.6zM835.2 132.8H559.2c-8.8 0-16-7.2-16-16V36c0-8.8 7.2-16 16-16h276c8.8 0 16 7.2 16 16v80.8c0 8.8-7.2 16-16 16z m-260-32h244V52H575.2v48.8z"
+                          p-id="8469" fill="#1f386e"></path>
+                        <path
+                          d="M494.4 132.8H218.4c-8.8 0-16-7.2-16-16V36c0-8.8 7.2-16 16-16h276c8.8 0 16 7.2 16 16v80.8c0 8.8-7.2 16-16 16z m-260-32h244V52H234.4v48.8zM810.4 186.4h-59.2c-4.8 0-8-3.2-8-8s3.2-8 8-8h59.2c4.8 0 8 3.2 8 8s-4 8-8 8zM810.4 268.8h-59.2c-4.8 0-8-3.2-8-8s3.2-8 8-8h59.2c4.8 0 8 3.2 8 8s-4 8-8 8zM810.4 351.2h-59.2c-4.8 0-8-3.2-8-8s3.2-8 8-8h59.2c4.8 0 8 3.2 8 8s-4 8-8 8zM322.4 186.4h-68.8c-4.8 0-8-3.2-8-8s3.2-8 8-8h68.8c4.8 0 8 3.2 8 8s-3.2 8-8 8zM322.4 307.2h-68.8c-4.8 0-8-3.2-8-8s3.2-8 8-8h68.8c4.8 0 8 3.2 8 8s-3.2 8-8 8zM322.4 428h-68.8c-4.8 0-8-3.2-8-8s3.2-8 8-8h68.8c4.8 0 8 3.2 8 8 0 4-3.2 8-8 8z"
+                          p-id="8470" fill="#1f386e"></path>
+                        <path
+                          d="M700 1004c-20 0-40-1.6-60-5.6-7.2-1.6-12-7.2-12.8-14.4-0.8-7.2 3.2-13.6 10.4-16 16.8-6.4 31.2-21.6 36.8-39.2 5.6-17.6 3.2-36.8-7.2-52.8L445.6 536c-1.6-2.4-2.4-5.6-2.4-8.8v-28.8c0-3.2 0.8-7.2 3.2-9.6 11.2-14.4 23.2-28 37.6-40.8 27.2-24.8 56.8-44 89.6-58.4V116.8c0-8.8 7.2-16 16-16h220.8c8.8 0 16 7.2 16 16v272.8c32.8 14.4 63.2 33.6 90.4 58.4 65.6 60.8 104 146.4 104 236-0.8 176.8-144.8 320-320.8 320z m-15.2-32h14.4c159.2 0 288-129.6 288-288 0-80.8-34.4-157.6-93.6-212-26.4-24-56.8-43.2-90.4-56-6.4-2.4-10.4-8-10.4-15.2V132.8H605.6V400c0 6.4-4 12.8-10.4 15.2-32.8 12.8-63.2 32-89.6 56-11.2 10.4-21.6 21.6-30.4 32.8v18.4l218.4 336c15.2 24 19.2 52.8 11.2 80-4.8 12.8-11.2 24-20 33.6z"
+                          p-id="8471" fill="#1f386e"></path>
+                        <path
+                          d="M905.6 468H494.4c-4.8 0-8-3.2-8-8s3.2-8 8-8h411.2c4.8 0 8 3.2 8 8s-4 8-8 8zM596 744.8H115.2c-4.8 0-8-3.2-8-8s3.2-8 8-8h480.8c4.8 0 8 3.2 8 8 0 4-3.2 8-8 8z"
+                          p-id="8472" fill="#1f386e"></path>
+                        <path
+                          d="M752 669.6c-37.6 0-67.2-30.4-67.2-67.2 0-37.6 30.4-67.2 67.2-67.2 37.6 0 67.2 30.4 67.2 67.2 0 36.8-30.4 67.2-67.2 67.2z m0-119.2c-28.8 0-51.2 23.2-51.2 51.2 0 28.8 23.2 51.2 51.2 51.2s51.2-23.2 51.2-51.2c0-28-23.2-51.2-51.2-51.2z"
+                          p-id="8473" fill="#1f386e"></path>
+                        <path
+                          d="M796.8 800.8c-20 0-36-16-36-36s16-36 36-36 36 16 36 36c0.8 20-16 36-36 36z m0-56c-11.2 0-20 8.8-20 20s8.8 20 20 20 20-8.8 20-20-8.8-20-20-20z"
+                          p-id="8474" fill="#1f386e"></path>
+                        <path
+                          d="M433.6 884.8c-27.2 0-50.4-22.4-50.4-50.4 0-27.2 22.4-50.4 50.4-50.4 27.2 0 50.4 22.4 50.4 50.4-0.8 28-23.2 50.4-50.4 50.4z m0-84c-18.4 0-34.4 15.2-34.4 34.4 0 18.4 15.2 34.4 34.4 34.4 18.4 0 34.4-15.2 34.4-34.4-0.8-19.2-16-34.4-34.4-34.4z"
+                          p-id="8475" fill="#1f386e"></path>
+                        <path
+                          d="M225.6 863.2c-21.6 0-39.2-17.6-39.2-39.2s17.6-39.2 39.2-39.2 39.2 17.6 39.2 39.2-17.6 39.2-39.2 39.2z m0-62.4c-12.8 0-23.2 10.4-23.2 23.2 0 12.8 10.4 23.2 23.2 23.2 12.8 0 23.2-10.4 23.2-23.2 0-12.8-10.4-23.2-23.2-23.2z"
+                          p-id="8476" fill="#1f386e"></path>
+                        <path
+                          d="M348.8 693.6c-37.6 0-68.8-30.4-68.8-68.8s30.4-68.8 68.8-68.8c37.6 0 68.8 30.4 68.8 68.8s-31.2 68.8-68.8 68.8z m0-121.6c-28.8 0-52.8 24-52.8 52.8 0 28.8 24 52.8 52.8 52.8 28.8 0 52.8-24 52.8-52.8 0-28.8-24-52.8-52.8-52.8z"
+                          p-id="8477" fill="#1f386e"></path>
+                      </svg>
+                    </div>
+                  </span>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <!--案例2-->
+          <div class="product productall2">
+            <ul class="cf product2">
+              <div class="product2-box">
+                <p class="product2-box-p1">药物设计服务 <i class="fa fa-medkit" aria-hidden="true"></i></p>
+                <span class="product2-box-span1">晶泰科技基于人工智能和计算化学方法，实现分子结构生成、
+                  活性预测和性质预测等多项技术创新，通过药物设计云平台为全球药企提供小分子药物设计、
+              </div>
+              <div class="product2-box">
+                <p class="product2-box-p2">小分子药物设计</p>
+                <div class="product2-box-span2-box">
+                  <span class="product2-box-span2">
+                    晶泰科技基于人工智能和计算化学方法，实现分子结构生成、
+                    活性预测和性质预测等多项技术创新，通过药物设计云平台为全球药企提供小分子药物设计
+                  </span>
+                </div>
+              </div>
+              <div class="product2-box">
+                <p class="product2-box-p2">小分子药物设计</p>
+                <div class="product2-box-span2-box">
+                  <span class="product2-box-span2">
+                    晶泰科技基于人工智能和计算化学方法，实现分子结构生成、
+                    活性预测和性质预测等多项技术创新，通过药物设计云平台为全球药企提供小分子药物设计
+                  </span>
+                </div>
+              </div>
+              <div class="product2-box product2-box2">
+                <p class="product2-box-p2">小分子药物设计</p>
+                <div class="product2-box-span2-box">
+                  <span class="product2-box-span2">
+                    晶泰科技基于人工智能和计算化学方法，实现分子结构生成、
+                    活性预测和性质预测等多项技术创新，通过药物设计云平台为全球药企提供小分子药物设计
+                  </span>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <!--案例3-->
+          <div class="product productall2 productall3">
+            <ul class="cf product3">
+              <div class="product3-box">
+                <div class="product3-box-img">
+                  <svg t="1610967660067" class="icon icon2" viewBox="0 0 1024 1024" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" p-id="9156" width="160" height="160">
+                    <path
+                      d="M196.1 989.7c-9.1 0-17.6-3.5-24-9.9-6.3-6.3-9.9-15-9.9-24v-236c0-1.9-1.4-3.5-3.3-3.8-39.1-5.1-108.4-19.7-133.7-60.7-12.4-20.1-13.5-44.2-3.1-67.7 27.2-61.2 72.5-105.4 97-126.2 0.7-0.6 1.2-1.5 1.3-2.4 8.9-71.3 71.3-426.8 428.7-426.8 194.6 0 351.9 88.1 420.8 235.5 73.4 157.3 30.3 352.4-118.3 535.4-0.6 0.7-0.8 1.5-0.8 2.4V950c0 18.7-15.2 33.9-33.9 33.9S783 968.7 783 950V791.8c0-8 2.8-15.7 7.9-21.8C929.1 604.9 972 432.1 908.6 296.2c-57.5-123-191.8-196.4-359.4-196.4-336.2 0-361.8 364.6-362.8 380.1-0.7 10.1-5.7 19.4-13.9 25.4-6.3 4.8-60.7 47.3-88.4 109.7-0.4 1-0.4 2.1 0 3 7.1 16.8 65.6 31.1 113.6 33.5 18.1 0.9 32.2 15.7 32.3 33.8V918c0 2.1 1.7 3.8 3.8 3.8h189.3c18.7 0 33.9 15.2 33.9 33.9s-15.2 33.9-33.9 33.9h-227z"
+                      p-id="9157" fill="#1f386e"></path>
+                    <path
+                      d="M583.9 687.3c-14.3 0-27.1-9-31.9-22.4l-21.3-62.3c-0.5-1.5-2-2.6-3.6-2.6H415.2c-1.6 0-3.1 1-3.6 2.5L389 665.4c-5.1 12.8-17.5 21.1-31.4 21.1-3.9 0-7.8-0.7-11.5-2-17.2-6.2-26.4-24.7-20.8-42.2l116.3-323.6c4.8-13.4 17.6-22.4 31.9-22.4 14.6 0.1 27.4 9.3 32 22.9l110.7 323.7c5.7 17.4-3.9 36.6-21.3 42.5-3.6 1.3-7.2 1.9-11 1.9z m-111.4-247c-1.6 0-3.1 1-3.6 2.5L438.7 527c-0.4 1.2-0.2 2.5 0.5 3.5s1.9 1.6 3.1 1.6h59c1.2 0 2.4-0.6 3.1-1.6 0.7-1 0.9-2.3 0.5-3.5l-28.8-84.2c-0.5-1.5-1.9-2.5-3.6-2.5z m225 244.5c-18.7 0-33.9-14.7-33.9-32.7V329.3c0-18 15.2-32.7 33.9-32.7s33.9 14.7 33.9 32.7v322.9c-0.1 18-15.3 32.6-33.9 32.6z"
+                      p-id="9158" fill="#1f386e"></path>
+                  </svg>
+                </div>
+                <div>
+                  <p class="product3-box-p">人工智能服务 <i class="fa fa-paper-plane" aria-hidden="true"></i></p>
+                  <div class="product3-box-span-box">
+                    <span class="product3-box-span">
+                      晶泰科技提供的人工智能服务以云计算技术为基础，借助强大的计算资源调度能力和CNN、RNN、GCN、GAN和DQN等深度学习算法模型，
+                      实现药物数据的深度挖掘，为新药研发提供技术支持，帮助药企解决在新药研发过程中遇到的各种问题，缩短研发时间，
+                      提高研发效率，降低研发风险。
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="product3-box1">
+                <p class="product3-box-p2">定制化AI模型开发</p>
+                <div class="product3-box-p2-box">
+                  <span class="product3-box-p2">
+                    晶泰科技提供的人工智能服务以云计算技术为基础，借助强大的计算资源调度能力和CNN、RNN、GCN、GAN和DQN等深度学习算法模型，
+                    实现药物数据的深度挖掘，为新药研发提供技术支持，帮助药企解决在新药研发过程中遇到的各种问题，
+                  </span>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <!--案例4-->
+          <div class="product productall4">
+            <ul class="cf product4">
+              <div class="product4-header">
+                <div>
+                  <p class="product4-box1-p">人工智能服务 <i class="fa fa-paper-plane" aria-hidden="true"></i></p>
+                  <div class="product4-box1-span-box">
+                    <span class="product4-box1-span">
+                      晶泰科技提供的人工智能服务以云计算技术为基础，借助强大的计算资源调度能力和CNN、RNN、GCN、GAN和DQN等深度学习算法模型，
+                      实现药物数据的深度挖掘，为新药研发提供技术支持，帮助药企解决在新药研发过程中遇到的各种问题,借助强大的计算资源调度能力
+                      和CNN、RNN、GCN等深度学习算法模型，实现药物数据的深度挖掘，为新药研发提供技术支持，帮助药企解决在新药研发过
+                      程中遇到的各种问题
+                    </span>
+                  </div>
+                </div>
+                <div class="product4-box1-img">
+                  <svg t="1610971599688" class="icon icon2" viewBox="0 0 1024 1024" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" p-id="14029" data-spm-anchor-id="a313x.7781069.0.i28" width="150"
+                    height="150">
+                    <path
+                      d="M647.8 723.4c34 23.2 54.6 60.5 53.3 100-1.7 51.2-38.9 94.5-103.7 116.6-0.7 46.5-38.6 84-85.3 84-47.1 0-85.3-38.2-85.3-85.3s38.2-85.3 85.3-85.3c32.5 0 60.8 18.2 75.2 45 22.8-8.2 40.2-19.3 52.2-32.4 12.2-13.3 18.5-28.4 19-44 1.1-31-20.7-61.2-55.2-73.8l0.4-1c-10.4 4.9-21.1 9.4-32.1 13.5-63 23.9-132 34.7-193.5 31.4-62.8-3.4-113.9-21.3-141.3-52.3-27.3-30.8-28.9-70.3-5.2-112.6-19.8-5-37-14.4-50.9-27.7-41.6 8-79.1-7.9-107.1-42.1-24.6-30.1-41-73.3-46.7-120.1-5.8-46.9-0.4-94.2 16.1-132.3 16.8-38.8 44.3-66.6 80.9-78.9 8.2-55.3 28.5-98.9 59.2-129.7 30.3-30.3 69.4-46.7 111.5-48.7 34.3-1.6 68 6.4 96.5 21.4 29.1-31.2 76.7-49.9 124-45.8 41.6 3.7 79.5 23.8 110.5 59.8 41.2-13.8 89.8-16.5 130.8-3 37 12.2 66 36.5 84.5 73 55.4 15.6 104.3 50.3 125.2 94.1 20.8 43.8 23 94.1 4.2 142.2 38.5 49 44.5 118.5 13.7 171.2-17.5 29.9-45.4 52-81.2 63.1-38.3 11.8-84.4 10.8-136.6-4-2.5-0.7-4.8-1.8-6.8-3.3-5.1 7.4-10.5 14.8-16.2 22.2-25.6 33.3-58 61.6-95.4 84.8zM279.9 631c-13.9 18.5-21 34.9-22.2 48.7-1 12.1 2.6 22.4 10.9 31.8 18.5 20.9 59.2 35.1 111.7 38 55.6 3 118.6-6.9 176.1-28.7 63.2-24 116.5-60.8 153.1-108.1 35-45.3 54.6-86.8 59.4-124.5-37.3-9.2-64.9-42.8-64.9-82.9 0-47.1 38.2-85.3 85.3-85.3s85.3 38.2 85.3 85.3c0 39.3-26.6 72.4-62.8 82.3-2.9 29.7-12.9 60.5-29.9 92.2 42.9 11.6 79.3 12.1 108.3 3.1 25.7-7.9 44.9-23.2 57-43.8 23.5-40.2 16.6-95.6-17.2-131.1-6.1-6.4-7.6-15.8-3.8-23.8 19-40.3 18.7-82.3 1.4-118.6-12.2-25.6-37.3-47.8-69.2-61.7 1.3 6 2.3 12.1 3.2 18.5 1.6 11.7-6.6 22.4-18.2 24-11.7 1.6-22.4-6.6-24-18.2-8.2-60.2-35.2-93.9-76.3-107.5-27.6-9.1-61.3-8.5-91.5-0.8 6.5 11.1 12.5 23.2 18 36.2 4.6 10.9-0.5 23.4-11.4 27.9-10.9 4.6-23.4-0.5-27.9-11.4-15.3-36.3-34.6-63.2-56.7-81-19.2-15.5-40.3-24-62.2-25.9-32-2.8-64.3 9-84.8 28.1 20.5 18.9 35.1 42.6 40.2 69.1 2.3 11.6-5.3 22.8-16.9 25-11.6 2.3-22.8-5.3-25-16.9-9.1-46.8-67.1-83.8-128.3-80.9-31.8 1.5-60.8 13.7-83.3 36.2-26.1 26.1-43.2 65.6-48.9 118.6-1 9.2-7.8 16.8-16.9 18.6-29.6 6.1-51.6 26.2-65.4 58.2-13.3 30.7-17.8 70.5-13 110.3 4.8 39.3 18.3 74.9 37.4 98.2 14 17.1 30.1 26.7 48 28.3-14.3-46 7.4-103.9 54.8-144.5-10.9-14.1-17.3-32-17.3-51.3 0-47.1 38.2-85.3 85.3-85.3s85.3 38.2 85.3 85.3-38.1 85.3-85.3 85.3c-13 0-25.4-2.9-36.5-8.2-50.2 39.7-62.2 88-38.7 119.9 11.8 16.1 29.6 26 53 28.5 27.6 2.9 61.9-4.6 101.5-23.7 20.9-10.1 40.8-15.3 61.1-16.8 15.1-1.1 26.6-0.3 48.6 2.3 12 1.4 16.2 1.9 22 2.2 23.9 1.4 41-3.6 62.5-21.1 20.9-17 26.6-45.7 14.7-89.5-10 4.1-20.9 6.4-32.4 6.4-47.1 0-85.3-38.2-85.3-85.3s38.2-85.3 85.3-85.3 85.3 38.2 85.3 85.3c0 19.1-6.3 36.7-16.9 50.9 0.1 0.3 0.2 0.6 0.3 0.8 21.9 66.7 14.9 118-24.2 149.8-30.1 24.5-57.7 32.5-91.8 30.6-7-0.4-11.7-0.9-24.7-2.4-19.4-2.3-28.8-2.9-40.5-2.1-15 1.1-29.7 4.9-45.7 12.7-33.9 16.5-66 25.8-95 28z m253.4-225.7c23.6 0 42.7-19.1 42.7-42.7S556.9 320 533.3 320s-42.7 19.1-42.7 42.7 19.2 42.6 42.7 42.6z m-256 0c23.6 0 42.7-19.1 42.7-42.7S300.9 320 277.3 320s-42.7 19.1-42.7 42.7 19.2 42.6 42.7 42.6z m512 42.7c23.6 0 42.7-19.1 42.7-42.7s-19.1-42.7-42.7-42.7-42.7 19.1-42.7 42.7 19.2 42.7 42.7 42.7zM512 981.3c23.6 0 42.7-19.1 42.7-42.7S535.6 896 512 896s-42.7 19.1-42.7 42.7 19.1 42.6 42.7 42.6z"
+                      fill="#1f386e" p-id="14030"></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="product4-container">
+                <div class="product4-container-box product4-container-box1">
+                  <p class="product4-container-box-p">
+                    晶泰科技
+                  </p>
+                  <span class="product4-container-box-span">
+                    晶泰科技提供的人工智能服务以云计算技术为基础，借助强大的计算资源调度能力和CNN、RNN、GCN等深度学习算法模型
+                  </span>
+                </div>
+                <div class="product4-container-box product4-container-box2">
+                  <p class="product4-container-box-p">
+                    晶泰科技
+                  </p>
+                  <div class="product4-container-box-span-box">
+                    <span class="product4-container-box-span">
+                      晶泰科技提供的人工智能服务以云计算技术为基础，借助强大的计算资源调度能力和CNN、RNN、GCN等深度学习算法模型
+                    </span>
+                  </div>
+                </div>
+                <div class="product4-container-box product4-container-box2">
+                  <p class="product4-container-box-p">
+                    晶泰科技
+                  </p>
+                  <div class="product4-container-box-span-box">
+                    <span class="product4-container-box-span">
+                      晶泰科技提供的人工智能服务以云计算技术为基础，借助强大的计算资源调度能力和CNN、RNN、GCN等深度学习算法模型
+                    </span>
+                  </div>
+                </div>
+                <div class="product4-container-box product4-container-box2">
+                  <p class="product4-container-box-p">
+                    晶泰科技
+                  </p>
+                  <div class="product4-container-box-span-box">
+                    <span class="product4-container-box-span">
+                      晶泰科技提供的人工智能服务以云计算技术为基础，借助强大的计算资源调度能力和CNN、RNN等深度学习算法模型
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="about-us-button"><a href="#contact" class="news-abutton page-scroll">留言咨询</a></button>
+      </div>
+    </div>
+    <!---这是服务内容-->
+    <div id="company" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>服务内容</h2>
+          <p>
+            网络公司不仅仅是提供域名注册、空间租用、网站开发、网站建设与网络营销活动策划相关工作。
+          </p>
+        </div>
+        <div class="features">
+          <div class="feature">
+            <i class="fas fa-door-open"></i>
+            <h4 class="feature-title">品牌创意</h4>
+            <p class="feature-content">为企业设计独特的并能完美呈现企业价值的视觉</p>
+          </div>
+
+          <div class="feature">
+            <i class="fas fa-dumbbell"></i>
+            <h4 class="feature-title">整合营销</h4>
+            <p class="feature-content">为企业设计独特的并能完美呈现企业价值的视觉</p>
+          </div>
+
+          <div class="feature">
+            <i class="fas fa-capsules"></i>
+            <h4 class="feature-title">电子商务</h4>
+            <p class="feature-content">为企业设计独特的并能完美呈现企业价值的视觉</p>
+          </div>
+
+          <div class="feature">
+            <i class="fas fa-horse-head"></i>
+            <h4 class="feature-title">网页设计</h4>
+            <p class="feature-content">为企业设计独特的并能完美呈现企业价值的视觉</p>
+          </div>
+
+          <div class="feature">
+            <i class="fas fa-dharmachakra"></i>
+            <h4 class="feature-title">网站优化</h4>
+            <p class="feature-content">为企业设计独特的并能完美呈现企业价值的视觉</p>
+          </div>
+
+          <div class="feature">
+            <i class="fas fa-democrat"></i>
+            <h4 class="feature-title">网站框架</h4>
+            <p class="feature-content">为企业设计独特的并能完美呈现企业价值的视觉</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- 这是视频资料 -->
+    <div id="Service">
+      <div class="container">
+        <div class="section-title">
+          <h2>技术平台</h2>
+          <p>客户提出网站建设基本需求，包括设计要求及功能</p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 service-mediaall">
+            <div class="service-media" onmouseover="videoPlayback(document.getElementById('video1'))"
+              onmouseout="videoStopped(document.getElementById('video1'))">
+              <div class="videolist"
+                vpath="img/glide-images/bokeh-photography-of-person-holding-turned-on-iphone-1440727.jpg"
+                ipath="videos/佃海老师part.mp4">
+                <video id="video1" width="370px" height="190px" loop class="video-cover" muted>
+                  <source type="audio/mp4" src="videos/佃海老师part.mp4">
+                  </source>
+                </video>
+                <img src="img/飞桨.png" alt="" class="videolist-img">
+                <div class="service-media-background-mask">
+                  <div class="service-media-content">
+                    <div class="service-media-content-tag">
+                      "查看详情"
+                      <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                    </div>
+                    <div class="service-media-content-title">飞桨开源框架2.0四大亮点</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-media" onmouseover="videoPlayback(document.getElementById('video2'))"
+              onmouseout="videoStopped(document.getElementById('video2'))">
+              <div class="videolist"
+                vpath="img/glide-images/bokeh-photography-of-person-holding-turned-on-iphone-1440727.jpg"
+                ipath="videos/佃海老师part.mp4">
+                <video id="video2" width="370px" height="190px" loop class="video-cover" muted>
+                  <source type="audio/mp4" src="videos/佃海老师part.mp4">
+                  </source>
+                </video>
+                <img src="img/飞桨.png" alt="" class="videolist-img">
+                <div class="service-media-background-mask">
+                  <div class="service-media-content">
+                    <div class="service-media-content-tag">
+                      "查看详情"
+                      <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                    </div>
+                    <div class="service-media-content-title">飞桨开源框架2.0四大亮点</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-media" onmouseover="videoPlayback(document.getElementById('video3'))"
+              onmouseout="videoStopped(document.getElementById('video3'))">
+              <div class="videolist"
+                vpath="img/glide-images/bokeh-photography-of-person-holding-turned-on-iphone-1440727.jpg"
+                ipath="videos/佃海老师part.mp4">
+                <video id="video3" width="370px" height="190px" loop class="video-cover" muted>
+                  <source type="audio/mp4" src="videos/佃海老师part.mp4">
+                  </source>
+                </video>
+                <img src="img/飞桨.png" alt="" class="videolist-img">
+                <div class="service-media-background-mask">
+                  <div class="service-media-content">
+                    <div class="service-media-content-tag">
+                      "查看详情"
+                      <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                    </div>
+                    <div class="service-media-content-title">飞桨开源框架2.0四大亮点</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-media" onmouseover="videoPlayback(document.getElementById('video4'))"
+              onmouseout="videoStopped(document.getElementById('video4'))">
+              <div class="videolist"
+                vpath="img/glide-images/bokeh-photography-of-person-holding-turned-on-iphone-1440727.jpg"
+                ipath="videos/佃海老师part.mp4">
+                <video id="video4" width="370px" height="190px" loop class="video-cover" muted>
+                  <source type="audio/mp4" src="videos/佃海老师part.mp4">
+                  </source>
+                </video>
+                <img src="img/飞桨.png" alt="" class="videolist-img">
+                <div class="service-media-background-mask">
+                  <div class="service-media-content">
+                    <div class="service-media-content-tag">
+                      "查看详情"
+                      <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                    </div>
+                    <div class="service-media-content-title">飞桨开源框架2.0四大亮点</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-media" onmouseover="videoPlayback(document.getElementById('video5'))"
+              onmouseout="videoStopped(document.getElementById('video5'))">
+              <div class="videolist"
+                vpath="img/glide-images/bokeh-photography-of-person-holding-turned-on-iphone-1440727.jpg"
+                ipath="videos/佃海老师part.mp4">
+                <video id="video5" width="370px" height="190px" loop class="video-cover" muted>
+                  <source type="audio/mp4" src="videos/佃海老师part.mp4">
+                  </source>
+                </video>
+                <img src="img/飞桨.png" alt="" class="videolist-img">
+                <div class="service-media-background-mask">
+                  <div class="service-media-content">
+                    <div class="service-media-content-tag">
+                      "查看详情"
+                      <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                    </div>
+                    <div class="service-media-content-title">飞桨开源框架2.0四大亮点</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-media" onmouseover="videoPlayback(document.getElementById('video6'))"
+              onmouseout="videoStopped(document.getElementById('video6'))">
+              <div class="videolist"
+                vpath="img/glide-images/bokeh-photography-of-person-holding-turned-on-iphone-1440727.jpg"
+                ipath="videos/佃海老师part.mp4">
+                <video id="video6" width="370px" height="190px" loop class="video-cover" muted>
+                  <source type="audio/mp4" src="videos/佃海老师part.mp4">
+                  </source>
+                </video>
+                <img src="img/飞桨.png" alt="" class="videolist-img">
+                <div class="service-media-background-mask">
+                  <div class="service-media-content">
+                    <div class="service-media-content-tag">
+                      "查看详情"
+                      <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                    </div>
+                    <div class="service-media-content-title">飞桨开源框架2.0四大亮点</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="videos"></div>
+        </div>
+      </div>
+    </div>
+    <!-- 这是产品展示 -->
+    <div id="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h2>产品展示</h2>
+          <p>客户提出网站建设基本需求，包括设计要求及功能</p>
+        </div>
+        <div class="row">
+          <div class="portfolio-items">
+            <div class="col-sm-6 col-md-4 col-lg-4 portfolio-itemsall">
+              <div class="portfolio-item">
+                <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project Title"
+                    data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>Dolor Sit</h4>
+                    </div>
+                    <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title">
+                  </a> </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 portfolio-itemsall">
+              <div class="portfolio-item">
+                <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project Title"
+                    data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>Dolor Sit</h4>
+                    </div>
+                    <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title">
+                  </a> </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 portfolio-itemsall">
+              <div class="portfolio-item">
+                <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project Title"
+                    data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>Lorem Ipsum</h4>
+                    </div>
+                    <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title">
+                  </a> </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 portfolio-itemsall">
+              <div class="portfolio-item">
+                <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project Title"
+                    data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>Dolor Sit</h4>
+                    </div>
+                    <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title">
+                  </a> </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 portfolio-itemsall">
+              <div class="portfolio-item">
+                <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project Title"
+                    data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>Dolor Sit</h4>
+                    </div>
+                    <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title">
+                  </a> </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 portfolio-itemsall">
+              <div class="portfolio-item">
+                <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project Title"
+                    data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>Dolor Sit</h4>
+                    </div>
+                    <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title">
+                  </a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--这是动态数据-->
+    <div class="section" id="section-number">
+      <div class="data-section">
+        <div class="data-piece col-md-3">
+          <i class="fas fa-code"></i>
+          <div class="num">350</div>
+          <div class="data-desc">項科技</div>
+        </div>
+        <div class="data-piece col-md-3">
+          <i class="fas fa-award"></i>
+          <div class="num">699</div>
+          <div class="data-desc">个奖项</div>
+        </div>
+        <div class="data-piece col-md-3">
+          <i class="fas fa-laugh-wink"></i>
+          <div class="num">15880</div>
+          <div class="data-desc">位客户</div>
+        </div>
+        <div class="data-piece">
+          <i class="fas fa-folder col-md-3"></i>
+          <div class="num">200</div>
+          <div class="data-desc">个项目</div>
+        </div>
+      </div>
+    </div>
+
+    <!--这是新闻部分-->
+    <div class="news-section" id="news">
+      <div class="section-title inque container">
+        <h2>新闻速递</h2>
+      </div>
+      <div class="container">
+        <div class="news-intros">
+          <div class="news-intro">
+            <div class="news-media">
+              <a href="news.html">
+                <img src="./img/dongtaishujv/adult-business-computer-contemporary-380769.jpg" alt="">
+              </a>
+            </div>
+            <div class="news-desc">
+              <a href="news.html">lorem in room ha</a>
+              <hr>
+              </hr>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+          </div>
+          <div class="news-intro">
+            <div class="news-media">
+              <a href="news.html">
+                <img src="./img/dongtaishujv/apple-apple-device-design-desk-285814.jpg" alt="">
+              </a>
+            </div>
+            <div class="news-desc">
+              <a href="news.html">这是一个比较长长长长的标题</a>
+              <hr>
+              </hr>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quasi esse, repellendus exercitationem
+                optio
+                repellat numquam </p>
+            </div>
+          </div>
+
+          <div class="news-intro">
+            <div class="news-media">
+              <a href="news.html">
+                <img src="./img/dongtaishujv/bokeh-photography-of-person-holding-turned-on-iphone-1440727.jpg" alt="">
+              </a>
+            </div>
+            <div class="news-desc">
+              <a href="news.html">这是一个标题</a>
+              <hr>
+              </hr>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quasi esse, repellendus exercitationem
+                optio
+                repellat numquam corporis tempore id consequatur minima incidunt quibusdam? Dolorem itaque nobis ipsam
+                excepturi magnam amet?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="news-button"><a href="news-introductions.html" class="news-abutton">更多新闻</a></button>
+      </div>
+    </div>
+
+    <!-- 这是联系我们 -->
+    <div id="contact">
+      <div class="container">
+        <div class="col-md-6 form-container">
+          <div class="section-title">
+            <h2>联系我们</h2>
+            <p>请填写以下表格，我们将尽快与您取得联系</p>
+          </div>
+          <form name="sentMessage" id="contactForm" method="post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" placeholder="姓名">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="email" name="email" class="form-control" placeholder="邮箱">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea name="message" name="message" class="form-control" rows="8" placeholder="请在此处输入内容"></textarea>
+            </div>
+            <div id="success"></div>
+            <button type="submit" class="btn btn-custom btn-lg">发送邮件</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="map-container">
+            <div id="wrap" class="my-map">
+              <div id="mapContainer"></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="col-md-4 contact-img-container">
+              <p><img src="./img/contact-us/定位 2.png" alt=""><span>地址:</span><br>苏州工业园区裕新路108号</p>
+            </div>
+            <div class="col-md-4 contact-img-container">
+              <p><img src="./img/contact-us/电话 联系方式.png" alt=""><span>联系电话：</span><br> 0512-67996218
+            </div>
+            <div class="col-md-4 contact-img-container contact-email">
+              <p> <img src="./img/contact-us/邮箱.png" alt=""><span>邮箱：</span> <br>
+                <a>info@company.com</a>
+              </p>
+            </div>
+          </div>
+          <!-- 回到顶部 -->
+          <div class="goup">
+            <a onclick="GoTop()" target="_self" class="page-scroll">
+              <svg t="1611471006318" class="icon icon-top" viewBox="0 0 1024 1024" version="1.1"
+                xmlns="http://www.w3.org/2000/svg" p-id="2610" width="40" height="40">
+                <path
+                  d="M941.653 668.793L546.812 274.515c-19.82-19.796-51.963-19.796-71.788 0L80.178 668.793c-19.82 19.801-19.82 51.903 0 71.689 19.83 19.81 51.968 19.81 71.793 0l358.946-358.448L869.87 740.482c19.815 19.81 51.962 19.81 71.782 0 19.832-19.786 19.832-51.889 0.002-71.689z"
+                  p-id="2611" fill="#ffffff"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---这是底部信息-->
+    <div id="footer">
+      <div class="container text-center">
+        <p>版权所有 © 2021 苏州阿尔脉生物科技有限公司 – 苏ICP备19044585-1号</p>
+      </div>
+    </div>
+
+</body>
+<script src="https://webapi.amap.com/maps?v=1.3&key=ab7e3e531a5a4192db8c693ba948d79c"></script>
+<script type="text/javascript" src="./js/map.js"></script>
+<script type="text/javascript" src="./js/anime.min.js"></script>
+<script type="text/javascript" src="./js/scrollreveal.min.js"></script>
+<script type="text/javascript" src="./js/dongtaishujv.js"></script>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/nivo-lightbox.js"></script>
+<!-- <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>-->
+<!-- <script type="text/javascript" src="js/contact_me.js"></script> -->
+<script type="text/javascript" src="js/main.js"></script>
+<!-- <script type="text/javascript" src="bootstrap.main.css"></script> -->
+<script src="http://cdn.bootcss.com/bootstrap-hover-dropdown/2.0.10/bootstrap-hover-dropdown.min.js"></script>
+<script src="js/zzsc.js"></script>
+<script src="js/glide.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/company.js"></script>
+<script src="js/gotop.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="./js/bootstrapValidator.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/form.js"></script>
+<script type="text/javascript" src="./js/scrollmagic.js"></script>
+
+</html>
